@@ -31,7 +31,6 @@ public class TryProcessing extends PApplet {
     @Override
     public void draw() {
 
-        //circle(x1,HEIGHT/5,DIAMETER);
         ellipse(x1, y1, DIAMETER,DIAMETER);
         ellipse(x2, y2, DIAMETER,DIAMETER);
         ellipse(x3, y3, DIAMETER,DIAMETER);
