@@ -1,6 +1,6 @@
 import processing.core.PApplet;
 
-public class TryProcessing extends PApplet {
+public class ProceduralBalls extends PApplet {
 
     public static final int WIDTH = 640;
     public static final int HEIGHT = 640;
@@ -15,17 +15,13 @@ public class TryProcessing extends PApplet {
     private int x4 = 0;
 
     public static void main(String[] args) {
-        PApplet.main("TryProcessing", args);
+        PApplet.main("ProceduralBalls", args);
 
     }
 
     @Override
     public void settings() {
         size(WIDTH, HEIGHT);
-    }
-
-    @Override
-    public void setup() {
     }
 
     @Override
